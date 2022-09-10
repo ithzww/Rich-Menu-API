@@ -112,7 +112,7 @@ Method: GET
 ```
 Headers:
   + Authorization: Bearer {channel access token}
-Endpoint: https://api.line.me/v2/bot/user/all/richmenu/{richMenuId}
+Endpoint: https://api.line.me/v2/bot/user/all/richmenu/{{richMenuId}}
 Method: POST
 ```
 
@@ -120,6 +120,6 @@ Method: POST
 ```
 Headers:
   + Authorization: Bearer {channel access token}
-Endpoint: https://api.line.me/v2/bot/richmenu/{richMenuId}
+Endpoint: https://api.line.me/v2/bot/richmenu/{{richMenuId}}
 Method: DELETE
 ```
